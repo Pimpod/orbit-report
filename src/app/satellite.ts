@@ -20,4 +20,9 @@ export class Satellite {
             return false;
         } 
     }
+
+    makeStripe(x): boolean {
+        return x.indexOf(this) % 2 === 0;
+      }
+    
 }
